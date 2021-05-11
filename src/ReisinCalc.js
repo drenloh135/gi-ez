@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function ReisinCalcDisp() {
   const [calculated, setCalculated] = useState(false);
-  const [reisins, setReisins] = useState(10);
+  const [reisins, setReisins] = useState(30);
   const [reisinsNeeded, setReisinsNeeded] = useState(160);
 
   function onClickHandler() {
